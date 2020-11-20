@@ -6,7 +6,9 @@ const contents = JSON.stringify(posts.map(post => {
     slug: post.slug,
     category: post.category,
     isFeatured: post.isFeatured,
-    image: post.image
+    avatar: post.avatar,
+    banner: post.banner,
+    items: post.items
 	};
 }));
 
